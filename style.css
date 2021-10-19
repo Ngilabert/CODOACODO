@@ -1,0 +1,190 @@
+    .encabezado {
+        background-color: #353a40 !important;
+        font-size: 20px;
+    }
+    
+    .logo {
+        width: 125px;
+        margin-left: 75px;
+    }
+    
+    #confBsAs {
+        color: #feffff;
+        font-size: 25px;
+    }
+    
+    #conviertete {
+        color: #9a9ea1 !important;
+    }
+    
+    #oradores-nav {
+        color: #9a9ea1;
+    }
+    
+    #navbarScroll {
+        padding-right: 100px;
+    }
+    
+    #comprar {
+        color: #27a843;
+    }
+    
+    #conferencia {
+        color: #ffffff;
+    }
+    
+    #lugaryfecha {
+        color: #9a9ea1;
+    }
+    
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        height: 650px;
+        width: 100%;
+    }
+    
+    .imagenBA {
+        filter: brightness(50%);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .centrado {
+        color: white;
+        position: absolute;
+        top: 60%;
+        left: 70%;
+        transform: translate(-30%, -50%);
+        text-align: right;
+    }
+    
+    .centrado h2 {
+        display: flex;
+        justify-content: right;
+    }
+    
+    .contenedor-botones {
+        font-size: 0;
+    }
+    
+    #comp {
+        background-color: #29a744;
+        margin-left: 20px;
+    }
+    
+    .conoce-oradores * {
+        text-align: center;
+        margin: 0;
+    }
+    
+    .conoce-oradores u {
+        text-decoration-style: dotted;
+    }
+    
+    #conoce-a-los {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    
+    #oradores {
+        font-size: 33px;
+        font-weight: bold;
+    }
+    
+    .card-group {
+        padding: 0 !important;
+    }
+    
+    .card {
+        border-radius: 10px !important;
+    }
+    
+    .card-image {
+        width: 423px;
+        height: 423px;
+        max-width: 100%;
+    }
+    
+    #bill {
+        border-radius: 5px 5px 0 0;
+    }
+    
+    #steve {
+        border-radius: 5px 5px 0 0;
+    }
+    
+    #ada {
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .card-bill {
+        margin: 0 25px 0 25px !important;
+    }
+    
+    #honolulu {
+        width: 100%;
+        height: 450px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    #ubicacion {
+        margin-top: 25px;
+        max-height: 450px;
+    }
+    
+    #ubicacion-text {
+        background-color: #353a40;
+        color: white;
+    }
+    
+    #exampleFormControlInput2 {
+        margin-left: 7%;
+        max-width: 93%;
+    }
+    
+    #formulario {
+        margin-top: 20px;
+    }
+    
+    .text-area {
+        font-size: 30px !important;
+    }
+    
+    #formulario p {
+        font-size: 10px;
+        margin-top: 10px;
+        color: #212529;
+    }
+    
+    #boton-enviar {
+        background-color: #96c93e;
+        border-style: none;
+        margin-top: 10px;
+        height: 40px;
+    }
+    
+    footer nav {
+        color: white;
+        display: flex;
+        background-color: #1e516e;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    
+    footer nav p {
+        margin: 0;
+    }
+    
+    footer nav h5 {
+        font-size: 10px;
+        margin: 0;
+    }
