@@ -155,8 +155,11 @@
         color: #212529;
     }
     
-    #boton-enviar {
+    .boton-verde {
         background-color: #96c93e;
+    }
+    
+    #boton-enviar {
         border-style: none;
         margin-top: 10px;
         height: 40px;
@@ -183,4 +186,46 @@
     footer nav h5 {
         font-size: 10px;
         margin: 0;
+    }
+    
+    .card-transparent {
+        opacity: 0;
+    }
+    
+    .Contenedor-descuentos {
+        display: flex;
+        margin-top: 10px;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .descuentos {
+        border: black;
+        border-style: solid;
+        text-align: center;
+        padding: 25px 20px 25px 20px;
+        border-width: 2.5px;
+    }
+    
+    .descuentos h2,
+    h3,
+    h4,
+    h5 {
+        padding: 10px;
+    }
+    
+    #estudiante-id {
+        border-color: #007bff;
+    }
+    
+    #trainee-id {
+        border-color: #17a2b8;
+    }
+    
+    #junior-id {
+        border-color: #ffc107;
+    }
+    
+    .espacio-medio {
+        margin-left: 10px;
     }
