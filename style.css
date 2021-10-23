@@ -8,29 +8,25 @@
         margin-left: 75px;
     }
     
-    #confBsAs {
-        color: #feffff;
+    .confBsAs {
+        color: #feffff !important;
         font-size: 25px;
     }
     
-    #conviertete {
+    .nav-gris {
         color: #9a9ea1 !important;
     }
     
-    #oradores-nav {
-        color: #9a9ea1;
-    }
-    
-    #navbarScroll {
+    .navbar-Scroll {
         padding-right: 100px;
     }
     
-    #comprar {
-        color: #27a843;
+    .nav-comprar {
+        color: #27a843 !important;
     }
     
-    #conferencia {
-        color: #ffffff;
+    .nav-conferencia {
+        color: #ffffff !important;
     }
     
     #lugaryfecha {
