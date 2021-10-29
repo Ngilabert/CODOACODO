@@ -1,231 +1,253 @@
-    .encabezado {
-        background-color: #353a40 !important;
-        font-size: 20px;
-    }
-    
-    .logo {
-        width: 125px;
-        margin-left: 75px;
-    }
-    
-    .confBsAs {
-        color: #feffff !important;
-        font-size: 25px;
-    }
-    
-    .nav-gris {
-        color: #9a9ea1 !important;
-    }
-    
-    .navbar-Scroll {
-        padding-right: 100px;
-    }
-    
-    .nav-comprar {
-        color: #27a843 !important;
-    }
-    
-    .nav-conferencia {
-        color: #ffffff !important;
-    }
-    
-    #lugaryfecha {
-        color: #9a9ea1;
-    }
-    
-    .contenedor {
-        position: relative;
-        display: inline-block;
-        text-align: center;
-        height: 650px;
-        width: 100%;
-    }
-    
-    .imagenBA {
-        filter: brightness(50%);
-        height: 100%;
-        width: 100%;
-    }
-    
-    .centrado {
-        color: white;
-        position: absolute;
-        top: 60%;
-        left: 70%;
-        transform: translate(-30%, -50%);
-        text-align: right;
-    }
-    
-    .centrado h2 {
-        display: flex;
-        justify-content: right;
-    }
-    
-    .contenedor-botones {
-        font-size: 0;
-    }
-    
-    #comp {
-        background-color: #29a744;
-        margin-left: 20px;
-    }
-    
-    .conoce-oradores * {
-        text-align: center;
-        margin: 0;
-    }
-    
-    .conoce-oradores u {
-        text-decoration-style: dotted;
-    }
-    
-    #conoce-a-los {
-        font-size: 15px;
-        margin-top: 10px;
-    }
-    
-    #oradores {
-        font-size: 33px;
-        font-weight: bold;
-    }
-    
-    .card-group {
-        padding: 0 !important;
-    }
-    
-    .card {
-        border-radius: 10px !important;
-    }
-    
-    .card-image {
-        width: 423px;
-        height: 423px;
-        max-width: 100%;
-    }
-    
-    #bill {
-        border-radius: 5px 5px 0 0;
-    }
-    
-    #steve {
-        border-radius: 5px 5px 0 0;
-    }
-    
-    #ada {
-        border-radius: 5px 5px 0 0;
-    }
-    
-    .card-bill {
-        margin: 0 25px 0 25px !important;
-    }
-    
-    #honolulu {
-        width: 100%;
-        height: 450px;
-        max-width: 100%;
-        max-height: 100%;
-    }
-    
-    #ubicacion {
-        margin-top: 25px;
-        max-height: 450px;
-    }
-    
-    #ubicacion-text {
-        background-color: #353a40;
-        color: white;
-    }
-    
-    #exampleFormControlInput2 {
-        margin-left: 7%;
-        max-width: 93%;
-    }
-    
-    #formulario {
-        margin-top: 20px;
-    }
-    
-    .text-area {
-        font-size: 30px !important;
-    }
-    
-    #formulario p {
-        font-size: 10px;
-        margin-top: 10px;
-        color: #212529;
-    }
-    
-    .boton-verde {
-        background-color: #96c93e;
-    }
-    
-    #boton-enviar {
-        border-style: none;
-        margin-top: 10px;
-        height: 40px;
-    }
-    
-    footer nav {
-        color: white;
-        display: flex;
-        background-color: #1e516e;
-        flex-direction: row;
-        align-items: center;
-        align-content: center;
-        justify-content: space-evenly;
-        margin-top: 30px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        width: 100%;
-    }
-    
-    footer nav p {
-        margin: 0;
-    }
-    
-    footer nav h5 {
-        font-size: 10px;
-        margin: 0;
-    }
-    
-    .card-transparent {
-        opacity: 0;
-    }
-    
-    .Contenedor-descuentos {
-        display: flex;
-        margin-top: 10px;
-        gap: 10px;
-        justify-content: center;
-    }
-    
-    .descuentos {
-        border: black;
-        border-style: solid;
-        text-align: center;
-        padding: 25px 20px 25px 20px;
-        border-width: 2.5px;
-    }
-    
-    .descuentos h2,
-    h3,
-    h4,
-    h5 {
-        padding: 10px;
-    }
-    
-    #estudiante-id {
-        border-color: #007bff;
-    }
-    
-    #trainee-id {
-        border-color: #17a2b8;
-    }
-    
-    #junior-id {
-        border-color: #ffc107;
-    }
-    
-    .espacio-medio {
-        margin-left: 10px;
-    }
+* {
+    max-width: 100%;
+}
+
+.encabezado {
+    background-color: #353a40 !important;
+    font-size: 20px;
+}
+
+.logo {
+    width: 125px;
+    margin-left: 75px;
+}
+
+.confBsAs {
+    color: #feffff !important;
+    font-size: 25px;
+}
+
+.nav-gris {
+    color: #9a9ea1 !important;
+}
+
+.navbar-Scroll {
+    padding-right: 100px;
+}
+
+.nav-comprar {
+    color: #27a843 !important;
+}
+
+.nav-conferencia {
+    color: #ffffff !important;
+}
+
+#lugaryfecha {
+    color: #9a9ea1;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 650px;
+    width: 100%;
+}
+
+.imagenBA {
+    filter: brightness(50%);
+    height: 100%;
+    width: 100%;
+}
+
+.centrado {
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-30%, -50%);
+    text-align: right;
+}
+
+.centrado h2 {
+    display: flex;
+    justify-content: right;
+}
+
+.contenedor-botones {
+    font-size: 0;
+}
+
+#comp {
+    background-color: #29a744;
+    margin-left: 20px;
+}
+
+.conoce-oradores * {
+    text-align: center;
+    margin: 0;
+}
+
+.conoce-oradores u {
+    text-decoration-style: dotted;
+}
+
+#conoce-a-los {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#oradores {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.card-group {
+    padding: 0 !important;
+}
+
+.card {
+    border-radius: 10px !important;
+}
+
+.card-image {
+    width: 423px;
+    height: 423px;
+    max-width: 100%;
+}
+
+#bill {
+    border-radius: 5px 5px 0 0;
+}
+
+#steve {
+    border-radius: 5px 5px 0 0;
+}
+
+#ada {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-bill {
+    margin: 0 25px 0 25px !important;
+}
+
+#honolulu {
+    width: 100%;
+    height: 450px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#ubicacion {
+    margin-top: 25px;
+    max-height: 450px;
+}
+
+#ubicacion-text {
+    background-color: #353a40;
+    color: white;
+}
+
+#exampleFormControlInput2 {
+    margin-left: 7%;
+    max-width: 93%;
+}
+
+#formulario {
+    margin-top: 20px;
+}
+
+.text-area {
+    font-size: 30px !important;
+}
+
+#formulario p {
+    font-size: 10px;
+    margin-top: 10px;
+    color: #212529;
+}
+
+.boton-verde {
+    background-color: #96c93e;
+}
+
+#boton-enviar {
+    border-style: none;
+    margin-top: 10px;
+    height: 40px;
+}
+
+footer nav {
+    color: white;
+    display: flex;
+    background-color: #1e516e;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+footer nav p {
+    margin: 0;
+}
+
+footer nav h5 {
+    font-size: 10px;
+    margin: 0;
+}
+
+.card-transparent {
+    opacity: 0;
+}
+
+.Contenedor-descuentos {
+    margin-top: 10px;
+}
+
+.descuentos {
+    border: black;
+    border-style: solid;
+    text-align: center;
+    padding: 0;
+    border-width: 2.5px;
+    width: 20%;
+}
+
+.descuentos h2,
+h3,
+h4,
+h5 {
+    padding: 10px;
+}
+
+#estudiante-id {
+    border-color: #007bff;
+}
+
+#trainee-id {
+    border-color: #17a2b8;
+}
+
+#junior-id {
+    border-color: #ffc107;
+}
+
+.espacio-medio {
+    margin-left: 10px;
+}
+
+.contenedor-venta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-venta p {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.contenedor-venta h5 {
+    font-weight: lighter;
+}
+
+.assd {
+    margin-left: 150px;
+    margin-right: 150px;
+}

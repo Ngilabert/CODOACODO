@@ -27,20 +27,20 @@
                     </ul>
                     <ul class="nav navbar-nav navbar-left">
                         <li class="nav-item">
-                            <a class="nav-link active nav-conferencia " href="#" aria-current="page">La conferencia</a>
+                            <a class="nav-link active nav-conferencia " href="index.html" aria-current="page">La conferencia</a>
                         </li>
                         <li class="nav-item">
 
-                            <a class="nav-link nav-gris" href="#conoce-a-los">Los oradores</a>
+                            <a class="nav-link nav-gris" href="index.html">Los oradores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-gris" href="#ubicacion">El lugar y la fecha</a>
+                            <a class="nav-link nav-gris" href="index.html">El lugar y la fecha</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-gris" href="#formulario">Convíertete en orador</a>
+                            <a class="nav-link nav-gris" href="index.html">Convíertete en orador</a>
                         </li>
                         <li class="nav-item  ">
-                            <a class="nav-link nav-comprar">Comprar Tickets</a>
+                            <a class="nav-link nav-comprar" href="#">Comprar Tickets</a>
                         </li>
                     </ul>
 
@@ -49,83 +49,87 @@
         </nav>
 
     </header>
+
     <section>
-        <div class="Contenedor-descuentos">
-            <article class="descuentos" id="estudiante-id">
+        <div class="row Contenedor-descuentos gap-2">
+            <div class="col-md-2"></div>
+            <article class="descuentos col-md-3" id="estudiante-id">
                 <h2>Estudiante</h2>
                 <h4>Tienen un descuento</h4>
                 <h4>80%</h4>
                 <h5>*presentar documentacion</h5>
             </article>
-            <article class="descuentos" id="trainee-id">
+            <article class="descuentos col-md-3" id="trainee-id">
                 <h2>Trainee</h2>
                 <h4>Tienen un descuento</h4>
                 <h4>50%</h4>
                 <h5>*presentar documentacion</h5>
             </article>
-            <article class="descuentos" id="junior-id">
+            <article class="descuentos col-md-3" id="junior-id">
                 <h2>Junior</h2>
                 <h4>Tienen un descuento</h4>
                 <h4>15%</h4>
                 <h5>*presentar documentacion</h5>
             </article>
+            <div class="col-md-2"></div>
         </div>
     </section>
 
     <section>
-        <h5>VENTA</h5>
-        <p>VALOR DE TICKET $200
-        </p>
-        <form action="" id="fff">
+        <div class="contenedor-venta">
+            <h5>VENTA</h5>
+            <p>VALOR DE TICKET $200
+            </p>
+        </div>
+        <form action="" id="ffaaf">
 
-            <div class="row g-0">
+            <div class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-4 ">
-                    <input type="text" class="form-control" id="nombre_compra" placeholder="Nombre">
-                </div>
-
                 <div class="col-md-4">
-                    <input type="text" class="form-control espacio-medio ml-4 " id="apellido_compra" placeholder="Apellido">
+                    <input type="text" class="form-control mb-3" placeholder="Nombre" aria-label="Nombre">
                 </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control mb-3" placeholder="Apellido" aria-label="Apellido">
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-2"></div>
 
-
-                <div class="col-md-2"></div>
                 <div class="col-md-8">
-                    <input type="email" class="form-control" id="mail_compra" placeholder="Correo">
+                    <input type="email" class="form-control mb-3" id="mail_compra" placeholder="Correo">
                 </div>
+            </div>
 
-                <div class="col-md-2"></div>
 
+            <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-4">
-                    <label for="cantidad_compra">Cantidad</label>
-                    <input type="number" class="form-control" id="cantidad_compra" placeholder="cantidad">
+                    <label for="cantidad">Cantidad</label>
+                    <input type="number" id="cantidad" class="form-control mb-3" placeholder="Cantidad" aria-label="Cantidad">
                 </div>
                 <div class="col-md-4">
-                    <label for="categoria-compra">Categoria</label>
-
-                    <select class="form-select espacio-medio" id="categoria-compra" aria-label="Default select example">
-                        <option selected>Estudiante</option>
-                        <option value="Trainee">Trainee</option>
-                        <option value="Junior">Junior</option>
-                    </select>
+                    <label for="categoria">Categoria</label>
+                    <select class="form-select mb-3" aria-label="Estudiante" id="categoria">
+                        <option selected value="80">Estudiante</option>
+                        <option value="50">Trainee</option>
+                        <option value="30">Junior</option>
+                      </select>
                 </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-2"></div>
-                <div class="col-md-8 mb-3 ">
-                    <div class="alert alert-primary" role="alert">
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 "></div>
+                <div class="col-md-8 ">
+                    <div class="alert alert-primary" id="totalAPagar" role="alert">
                         Total a pagar: $
                     </div>
                 </div>
-                <div class="col-md-2"></div>
-
-
-
-                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 "></div>
                 <div class="col-md-4">
                     <div class="d-grid gap-2">
-                        <button type="reset" class="btn btn-secondary boton-verde">Borrar</button>
+                        <button type="reset" class="btn btn-secondary boton-verde" id="resetButton">Borrar</button>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -133,11 +137,10 @@
                         <button type="button" id="resumen_compra" class="btn btn-secondary boton-verde espacio-medio">Resumen</button>
                     </div>
                 </div>
-                <div class="col-md-2"></div>
             </div>
-
         </form>
     </section>
+
     <footer>
         <nav>
             <h5>Preguntas
@@ -151,6 +154,8 @@
             <h5>Estudiantes</h5>
         </nav>
     </footer>
+    <script src="comprar_ticket.js"></script>
+
 </body>
 
 </html>
